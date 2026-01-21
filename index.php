@@ -2,11 +2,6 @@
 // 1. Esto carga todas las librerías de Composer
 require 'vendor/autoload.php'; 
 
-function is_text($text, $min, $max) {
-    $len = strlen($text);
-    return ($len >= $min && $len <= $max);
-}
-
 $user_data = ['testua' => '', 'hizkuntza' => ''];
 $errors = ['testua' => '', 'hizkuntza' => ''];
 $mezua = '';
